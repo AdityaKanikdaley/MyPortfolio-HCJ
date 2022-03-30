@@ -327,8 +327,8 @@ section {
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
@@ -460,27 +460,43 @@ section {
   width: 60%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .flutter {
+  width: 90%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .android {
+  width: 70%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .ds {
+  width: 90%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .algo {
+  width: 50%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .problem-solving {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
+  width: 55%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .dbms {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .html-css-js {
   width: 70%;
 }
 
