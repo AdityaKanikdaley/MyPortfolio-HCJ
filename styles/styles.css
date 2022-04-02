@@ -266,7 +266,7 @@ section {
   height: 80%;
   width: 68%;
   margin-left: 4rem;
-  background-color: var(--color-black);
+  background-color: var(--color-grey-6);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
