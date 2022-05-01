@@ -339,6 +339,9 @@ section{
                     .flutter{
                         width: 90%;
                     }
+                    .react.js{
+                        width: 80%;
+                    }
                     .android{
                         width: 70%;
                     }
@@ -356,9 +359,6 @@ section{
                     }
                     .cpp{
                         width: 55%;
-                    }
-                    .python{
-                        width: 50%;
                     }
                     .dbms{
                         width: 50%;
@@ -782,6 +782,9 @@ section{
             transform: translate(-50%, -50%);
             font-weight: 800;
             font-size: 6.3rem;
+            letter-spacing: 4px;
+            width: 100%;
+            overflow: hidden;
         }
     }
 }
